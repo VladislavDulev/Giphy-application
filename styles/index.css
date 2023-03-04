@@ -1,0 +1,145 @@
+#root {
+  margin: 0;
+  padding: 0;
+ }
+
+ html, .container-fluid, .navbar.navbar-expand-lg.navbar-dark.bg-dark.m-0{
+  background-color: rgb(81, 122, 255) !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-dark.m-0 {
+
+  margin-top:20px !important;
+}
+#search-button, .btn-secondary.my-2.my-sm-0 {
+background:none !important;
+border:none !important;
+}
+
+#logo {
+  padding:20px;
+}
+.navbar-brand {
+  font-family: "Poppins";
+  font-weight: 800;
+  padding-right:30px;
+}
+
+.navbar-brand:hover {
+border:none;
+opacity:0.5;
+
+}
+
+#trending-gifs {
+  color:white !important;
+  
+}
+
+.fas.fa-meteor {
+  padding-right:10px;
+}
+
+hr {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: white;
+}
+
+label {
+
+  margin:0;
+  padding-top:8px;
+  padding-left:30px;
+  opacity: 0.5;
+
+}
+
+input[type="file"] { 
+opacity: 0; /* make transparent */
+z-index: -1; /* move under anything else */
+position: absolute; /* don't let it take up space */
+}
+
+label:hover {
+  cursor:pointer;
+}
+
+#upload-file-btn, .btn.btn-primary {
+  background:none !important;
+  border:none !important;
+  padding-left: 20px;
+}
+
+.btn.btn-primary:hover {
+  opacity:0.5;
+}
+
+.btn.btn-secondary {
+background:rgb(105, 140, 253);
+color:white;
+border-radius: 2px;
+border-style:none;
+font-size:14px;
+}
+
+.btn.btn-secondary:hover {
+opacity:0.7;
+}
+
+#trending-gifs:hover {
+opacity:0.5;
+  
+}
+
+#search-input, .form-control.mr-sm-2::placeholder {
+ background:none;
+ color:white;
+ opacity:0.5;
+ padding: 0px;
+ margin:0ps;
+ font-size: 14px;
+}
+
+.card.col-2.gif-item {
+
+background: rgb(105, 140, 253);
+border-style:none;
+border-radius: 5px;
+
+}
+
+h5 {
+font-size:14px;
+font-weight:300;
+}
+
+img {
+ width:auto;
+ height:auto;
+}
+.modal-content {
+color:rgb(105, 140, 253) !important;
+border-radius:5px;
+font-size: 14px;
+}
+
+.img-thumbnail {
+border-style:none !important;
+padding:0px;
+border-radius:2px;
+}
+
+.btn {
+  margin: 0 auto;
+  display: block;
+}
+
+.heart-btn{
+  padding-left: 0;
+  margin-left: 10px;
+  padding-top: 0;
+}
